@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    
+</head>
+<style>
+    .hell{
+        color: lime;
+        font-variant: small-caps;
+    }
+    .button{
+        font-variant: small-caps;
+    }
+    
+    #btn2,#btn3{
+        font-size: 30px;
+        cursor: pointer;
+    }
+    body{
+        font-size: 35px;
+    }
+    
+    button,select,option{
+     font-size: 30px;
+     border-radius: 10px;
+    }
+
+    .div1{
+     background-color: aquamarine;
+    }
+    .div2{
+     background-color: brown;   
+    }
+    .div3{
+     background-color: yellow;   
+    }
+    .div4{
+      background-color: darkgoldenrod;  
+    }
+    .div5{
+      background-color: darkgreen;
+    }
+    .div6{
+      background-color: slateblue;  
+    }
+    .div7{
+        background-color: darkviolet;
+    }
+
+    #tables{
+        color: red;
+    }
+
+</style>
+<body>
+    <p id="para1" class="font-semibold m-4 p-6" >Its a Beginner Level Question</p>      
+    <input id="btn1" type="submit" value="change the color" onclick="change()" class="bg-slate-700 hover:bg-slate-600 hover:text-pink-50 text-fuchsia-600 rounded-md p-4 ml-8 text-xl font-semibold cursor-pointer">
+
+    <img id="img1" src="https://www.autobest.co.in/uploads/blog/211781680426.jpg" class="w-96 h-90 m-3 rounded-lg cursor-pointer"  >
+     <!--To Use below two buttons we have to remove tailwind script link-->
+    <button id="btn2"  onclick="enable()" >click me</button>
+    <button id="btn3" disabled>Click</button>
+ 
+    <input type="text" id="txt1">
+    <input type="submit" onclick="hello()" id="text2">
+
+    
+    <div id="fly1">United States Of America </div>
+    <div id="fly2">United States Of America </div>
+    <div id="fly3">United States Of America </div>
+    <div id="fly4">United States Of America </div>
+    <div id="fly5">United States Of America </div>
+    <div id="fly6">United States Of America </div>
+    <div id="fly7">United States Of America </div>
+
+
+   <select name="hello" value="select"  id="select1">
+    <option>Select</option>
+    <option id="op1"></option>
+    <option id="op2"></option>
+    <option id="op3"></option>
+   </select>
+    <button id="btn4" onclick="insert()">Insert the Options</button>
+    
+
+    <button id="para3">Hello I m Button</button>
+    <br>
+    <br>
+    <table border="1" cellpadding="1" cellspacing="0">
+        <tr>
+            <td>Course 1</td>
+            <td>Course 2</td>
+            <td>Course 3</td>
+        </tr>
+        <tr>
+            <td>Course 4</td>
+            <td>Course 5</td>
+            <td>Course 6</td>
+        </tr>
+        <tr>
+            <td>Course 7</td>
+            <td>Course 8</td>
+            <td>Course 9</td>
+        </tr>
+    </table>
+    
+    
+    
+    
+    <script src="index.js"></script>
+</body>
+</html>
